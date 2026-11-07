@@ -10,8 +10,8 @@
 
           <v-row v-else>
             <v-col cols="12" sm="6">
-              <div class="d-flex align-center ga-3">
-                <span class="text-subtitle-1">Servidor:</span>
+              <div class="d-flex flex-column align-start ga-1">
+                <span class="text-subtitle-1 text-medium-emphasis">Servidor</span>
                 <v-chip
                   :color="colorServidor"
                   :prepend-icon="iconoServidor"
@@ -22,8 +22,8 @@
               </div>
             </v-col>
             <v-col cols="12" sm="6">
-              <div class="d-flex align-center ga-3">
-                <span class="text-subtitle-1">Base de datos:</span>
+              <div class="d-flex flex-column align-start ga-1">
+                <span class="text-subtitle-1 text-medium-emphasis">Base de datos</span>
                 <v-chip
                   :color="colorBaseDatos"
                   :prepend-icon="iconoBaseDatos"
